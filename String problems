@@ -1,0 +1,52 @@
+//  Measuring the Length of a Basic String
+
+function func (){
+    console.log("GREK".length);
+    
+}
+func()
+
+
+
+// Checking if a String is Empty
+
+
+function func (){
+    let str ="";
+    if(str.length === 0)
+    {
+      console.log("str is empty");
+    }
+}
+func ()
+
+
+//Accessing the Last Character of a String
+
+
+function func (){
+    let str = "hyisbjsbfjhbsjfbjsbfjevvuj";
+    console.log(str.length-1 )
+}
+func()
+
+
+//reverse the string
+
+
+function func(){
+    let str = "how are your krutika , hope you are doing fine!";
+    let checkReverseStr = str.split('').reverse().join('');
+    console.log(checkReverseStr)
+}
+func()
+
+
+//Remove a Character From String in JavaScript
+
+function func (){
+    let str = "GEEKSFOREVERYONE";
+    let repStr = str.replace("G","B");
+    console.log(repStr)
+}
+func()
