@@ -50,3 +50,38 @@ function func (){
     console.log(repStr)
 }
 func()
+
+
+//JavaScript - Remove Text From a String
+
+function func (){
+    let str = "Hello i m learning the javascript programming";
+    let remStr = str.replace("javascript", "");
+    console.log(remStr);
+
+}
+func()
+
+
+// Delete First Character of a String
+
+function func (){
+    let str = "Hello i m learning the javascript programming";
+    let remStr = str.slice(1);
+    console.log(remStr);
+
+}
+func()
+
+
+
+//Iterate Over Characters of a String in JS
+function func (){
+    let str = "Hello i m learning the javascript programming";
+    for (let i =0 ;i < str.length ;i++)
+    {
+        console.log(str[i])
+    }
+    
+}
+func()
